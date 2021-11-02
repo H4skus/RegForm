@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Singup</title>
+<link rel="stylesheet" type="text/css" href="Desing.css">
+<meta charset="UTF-8">
+</head>
+
+<body>
+<form name="singUp" method="post" id="mainform">
+    <div id="Singup">
+    <script src="script.js"></script>
+
+        <h2 calss="nameDesing">Name</h2>
+        <input type="text" id="name" onkeyup="namecountupdate(this.value)" required></textarea><span id=namecount></span>
+
+        <h2 class="passDesing">Password</h2>
+        <input type="password" id="pass" onkeyup="passcountupdate(this.value)"required><span id=passcount></span>
+
+        <h2 class="passDesingAgain">Password</h2>
+        <input type="password" id="pass2" onchange="passwordMatch()"required>
+        <br>
+        <input type="submit" value="SingUp" id="button">
+    </div>
+</form>
+</body>
+
+</html>

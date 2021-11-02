@@ -1,0 +1,39 @@
+div#Singup{
+    width: 220px;
+    margin: auto;
+    height: 350px;
+    font-style: oblique;
+}
+
+span{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    width: 50px;
+    display: inline-block;
+}
+
+body{
+    background-color:lightsteelblue;
+    border-style: inset;
+    border-radius: 50px;
+}
+
+.error{
+    color: #8f1a1a;
+    font-weight: bold;
+}
+input{
+    width: 200px;
+    height: 20px;
+    background-color: lightblue;
+    border-radius: 30px;
+    margin: auto;
+}
+
+input#button{
+    position: relative;
+    margin: auto;
+    top: 10px;
+    left: 50px;
+    width: 100px;
+}
